@@ -3,7 +3,7 @@
 
 
 
-Repositório para armazenar resumos dosbre Git e GitHub do curso de versionamento da {Digital Innovation One}(https://www.gio.me/)
+Repositório para armazenar resumos sobre Git e GitHub do curso de versionamento da {Digital Innovation One}(https://www.gio.me/)
 
 
 
