@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 \# DIO| Reusmos Git e GitHub
 
 
@@ -36,3 +37,7 @@ git init
 
 \---
 
+=======
+# Projeto-DIO
+Projeto DIO
+>>>>>>> 8c3777ff88b4ababdb77a48964e0a66bb078d0aa
