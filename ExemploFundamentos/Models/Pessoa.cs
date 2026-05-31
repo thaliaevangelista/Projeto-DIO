@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
+using System;
+
 namespace ExemploFundamentos.Models
 {
     public class Pessoa
@@ -10,10 +12,16 @@ namespace ExemploFundamentos.Models
         public string Nome { get; set; }
         public int Idade { get; set; }
 
-        public void Apresentar ()
+        // Construtor que obriga passar nome e idade
+        public Pessoa(string nome, int idade)
         {
-            Console.WriteLine($"Olá, meu nome é {Nome} e tenho {Idade} anos.");
+            Nome = nome;
+            Idade = idade;
         }
 
+        public void Apresentar()
+        {
+            Console.WriteLine($"Olá, meu nome é {Nome} e tenho {Idade} anos");
+        }
     }
 }
