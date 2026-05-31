@@ -1,12 +1,13 @@
-C:\Users\ADM\OneDrive\Documents\Projeto DIO\ExemploFundamentos\obj\Debug\net10.0\ExemploFundamentos.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\ADM\OneDrive\Documents\Projeto DIO\ExemploFundamentos\obj\Debug\net10.0\ExemploFundamentos.AssemblyInfoInputs.cache
-C:\Users\ADM\OneDrive\Documents\Projeto DIO\ExemploFundamentos\obj\Debug\net10.0\ExemploFundamentos.AssemblyInfo.cs
-C:\Users\ADM\OneDrive\Documents\Projeto DIO\ExemploFundamentos\obj\Debug\net10.0\ExemploFundamentos.csproj.CoreCompileInputs.cache
 C:\Users\ADM\OneDrive\Documents\Projeto DIO\ExemploFundamentos\bin\Debug\net10.0\ExemploFundamentos.exe
 C:\Users\ADM\OneDrive\Documents\Projeto DIO\ExemploFundamentos\bin\Debug\net10.0\ExemploFundamentos.deps.json
 C:\Users\ADM\OneDrive\Documents\Projeto DIO\ExemploFundamentos\bin\Debug\net10.0\ExemploFundamentos.runtimeconfig.json
 C:\Users\ADM\OneDrive\Documents\Projeto DIO\ExemploFundamentos\bin\Debug\net10.0\ExemploFundamentos.dll
 C:\Users\ADM\OneDrive\Documents\Projeto DIO\ExemploFundamentos\bin\Debug\net10.0\ExemploFundamentos.pdb
+C:\Users\ADM\OneDrive\Documents\Projeto DIO\ExemploFundamentos\obj\Debug\net10.0\ExemploFundamentos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADM\OneDrive\Documents\Projeto DIO\ExemploFundamentos\obj\Debug\net10.0\ExemploFundamentos.AssemblyInfoInputs.cache
+C:\Users\ADM\OneDrive\Documents\Projeto DIO\ExemploFundamentos\obj\Debug\net10.0\ExemploFundamentos.AssemblyInfo.cs
+C:\Users\ADM\OneDrive\Documents\Projeto DIO\ExemploFundamentos\obj\Debug\net10.0\ExemploFundamentos.csproj.CoreCompileInputs.cache
+C:\Users\ADM\OneDrive\Documents\Projeto DIO\ExemploFundamentos\obj\Debug\net10.0\ExemploFundamentos.sourcelink.json
 C:\Users\ADM\OneDrive\Documents\Projeto DIO\ExemploFundamentos\obj\Debug\net10.0\ExemploFundamentos.dll
 C:\Users\ADM\OneDrive\Documents\Projeto DIO\ExemploFundamentos\obj\Debug\net10.0\refint\ExemploFundamentos.dll
 C:\Users\ADM\OneDrive\Documents\Projeto DIO\ExemploFundamentos\obj\Debug\net10.0\ExemploFundamentos.pdb
