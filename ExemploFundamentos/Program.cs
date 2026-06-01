@@ -1,18 +1,39 @@
 ﻿using ExemploFundamentos.Models;
 
-//Operador AND (&&) - Retorna true somente se ambas as expressões forem verdadeiras.
+//Operador Not (!) - Retorna o valor booleano oposto da expressão.
 
-bool possuiPresencaMinima = true;
-double media = 7.5;
+bool choveu = true;
+bool estaTarde = false;
 
-if (possuiPresencaMinima && media >= 7)
+if (!choveu && !estaTarde)
 {
-    Console.WriteLine("Aprovado!");
+    Console.WriteLine("Vamos peladar");
 }
 else
 {
-    Console.WriteLine("Reprovado.");
+    Console.WriteLine("Vamos ficar em casa.");
 }
+
+
+
+
+
+
+
+
+// //Operador AND (&&) - Retorna true somente se ambas as expressões forem verdadeiras.
+
+// bool possuiPresencaMinima = true;
+// double media = 7.5;
+
+// if (possuiPresencaMinima && media >= 7)
+// {
+//     Console.WriteLine("Aprovado!");
+// }
+// else
+// {
+//     Console.WriteLine("Reprovado.");
+// }
 
 
 
