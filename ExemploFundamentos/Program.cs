@@ -1,22 +1,56 @@
 ﻿using ExemploFundamentos.Models;
 
-int quantidadeEstoque = 10;
-int quantidadeComprada = 4;
-bool possivelVenda = quantidadeEstoque >= quantidadeComprada;
+// Operador OR (||) - Retorna true se pelo menos uma das expressões for verdadeira.
 
-Console.WriteLine($"Quantidade em estoque: {quantidadeEstoque}");
-Console.WriteLine($"Quantidade comprada: {quantidadeComprada}");
-Console.WriteLine($"É possível realizar a venda? {quantidadeEstoque >= quantidadeComprada}");
+bool ehMaiorDeIdade = false;
+bool possuiAutorizacaoDoResponsavel = true;
 
-
-if (quantidadeEstoque >= quantidadeComprada)
+if (ehMaiorDeIdade || possuiAutorizacaoDoResponsavel)
 {
-    Console.WriteLine("Venda realizada");
+    Console.WriteLine("Entrada autorizada.");
 }
 else
 {
-    Console.WriteLine("Desculpe, não temos a quantidade desejada em estoque.");
+    Console.WriteLine("Desculpe, você não tem autorização para entrar.");
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// int quantidadeEstoque = 10;
+// int quantidadeComprada = 4;
+// bool possivelVenda = quantidadeEstoque >= quantidadeComprada;
+
+// Console.WriteLine($"Quantidade em estoque: {quantidadeEstoque}");
+// Console.WriteLine($"Quantidade comprada: {quantidadeComprada}");
+// Console.WriteLine($"É possível realizar a venda? {quantidadeEstoque >= quantidadeComprada}");
+
+
+// if (quantidadeEstoque >= quantidadeComprada)
+// {
+//     Console.WriteLine("Venda realizada");
+// }
+// else
+// {
+//     Console.WriteLine("Desculpe, não temos a quantidade desejada em estoque.");
+// }
 
 
 
