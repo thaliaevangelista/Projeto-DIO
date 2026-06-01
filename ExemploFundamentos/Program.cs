@@ -1,38 +1,38 @@
 ﻿using ExemploFundamentos.Models;
 
-// Operador OR (||) - Retorna true se pelo menos uma das expressões for verdadeira.
+//Operador AND (&&) - Retorna true somente se ambas as expressões forem verdadeiras.
 
-bool ehMaiorDeIdade = false;
-bool possuiAutorizacaoDoResponsavel = true;
+bool possuiPresencaMinima = true;
+double media = 7.5;
 
-if (ehMaiorDeIdade || possuiAutorizacaoDoResponsavel)
+if (possuiPresencaMinima && media >= 7)
 {
-    Console.WriteLine("Entrada autorizada.");
+    Console.WriteLine("Aprovado!");
 }
 else
 {
-    Console.WriteLine("Desculpe, você não tem autorização para entrar.");
+    Console.WriteLine("Reprovado.");
 }
 
 
 
+// // Operador OR (||) - Retorna true se pelo menos uma das expressões for verdadeira.
+
+// bool ehMaiorDeIdade = false;
+// bool possuiAutorizacaoDoResponsavel = true;
+
+// if (ehMaiorDeIdade || possuiAutorizacaoDoResponsavel)
+// {
+//     Console.WriteLine("Entrada autorizada.");
+// }
+// else
+// {
+//     Console.WriteLine("Desculpe, você não tem autorização para entrar.");
+// }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//if e else
 
 // int quantidadeEstoque = 10;
 // int quantidadeComprada = 4;
@@ -51,23 +51,6 @@ else
 // {
 //     Console.WriteLine("Desculpe, não temos a quantidade desejada em estoque.");
 // }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
