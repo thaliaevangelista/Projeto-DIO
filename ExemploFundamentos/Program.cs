@@ -1,22 +1,95 @@
 ﻿using ExemploFundamentos.Models;
 
-//Operador Not (!) - Retorna o valor booleano oposto da expressão.
+Calculadora calc = new Calculadora();
 
-bool choveu = true;
-bool estaTarde = false;
 
-if (!choveu && !estaTarde)
-{
-    Console.WriteLine("Vamos peladar");
-}
-else
-{
-    Console.WriteLine("Vamos ficar em casa.");
-}
+//raiz quadrada
+calc.RaizQuadrada(9);
 
 
 
 
+
+
+
+
+
+
+// //Incremento e Decremento
+// int numeroIncremento = 10;
+
+// Console.WriteLine(numeroIncremento);
+
+// Console.WriteLine("Incremento a 10");
+// //numeroIncremento = numeroIncremento + 1;
+// numeroIncremento++;
+// Console.WriteLine(numeroIncremento);
+
+// int numeroDecremento = 20;
+
+// Console.WriteLine(numeroDecremento);
+
+// Console.WriteLine("Decremento a 20");
+// numeroDecremento--;
+
+// Console.WriteLine(numeroDecremento);
+
+
+
+
+
+// //seno, coseno e tangente
+// calc.Seno(30);
+// calc.Coseno(30);
+// calc.Tangente(30);
+
+
+
+
+
+//Calculadora soma, subtração, multiplicação, divisão e potenciação
+// calc.Somar(10, 30);
+// calc.Subtrair(10, 50);
+// calc.Multiplicar(15, 45);
+//calc.Potencia(3, 3);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// //Operador Not (!) - Retorna o valor booleano oposto da expressão.
+
+// bool choveu = true;
+// bool estaTarde = false;
+
+// if (!choveu && !estaTarde)
+// {
+//     Console.WriteLine("Vamos peladar");
+// }
+// else
+// {
+//     Console.WriteLine("Vamos ficar em casa.");
+// }
 
 
 
