@@ -1,16 +1,26 @@
 ﻿using ExemploFundamentos.Models;
 
-Calculadora calc = new Calculadora();
+//laço de repetição for
+
+int numero = 5;
+
+Console.WriteLine($"{numero} x 1= {numero * 1}");
+
+for(int contador = 0; contador <= 10; contador++)
+{
+    Console.WriteLine($"{numero} x {contador} = {numero * contador}");
+}
 
 
-//raiz quadrada
-calc.RaizQuadrada(9);
 
 
 
 
+// Calculadora calc = new Calculadora();
 
 
+// //raiz quadrada
+// calc.RaizQuadrada(9);
 
 
 
