@@ -1,16 +1,111 @@
 ﻿using ExemploFundamentos.Models;
 
-//laço de repetição for
+//menu interativo
 
-int numero = 5;
+string opcao = "";
+bool exibirMenu = true;
 
-Console.WriteLine($"{numero} x 1= {numero * 1}");
-
-for(int contador = 0; contador <= 10; contador++)
+while (exibirMenu)
 {
-    Console.WriteLine($"{numero} x {contador} = {numero * contador}");
+    Console.WriteLine("Digite a sua opção:");
+    Console.WriteLine("1 - Cadastrar cliente");
+    Console.WriteLine("2 - Buscar cliente");
+    Console.WriteLine("3 - Apagar cliente");
+    Console.WriteLine("4 - Encerrar");  
+
+    opcao = Console.ReadLine();
+
+    switch (opcao)
+    {
+        case "1":
+            Console.WriteLine("Cadastro de cliente");
+            break;
+
+        case "2":
+            Console.WriteLine("Busca de cliente");
+            break;
+
+        case "3":
+            Console.WriteLine("Apagar cliente");
+            break;
+
+        case "4":
+            Console.WriteLine("Encerrando o programa...");
+            exibirMenu = false;
+            //Environment.Exit(0);
+            break;
+
+        default:
+            Console.WriteLine("Opção inválida. Tente novamente.");
+            break;
+    }
+
+
+
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// //Laço de Repetição Do While
+// int soma = 0, numero = 0;
+
+// do
+// {
+//     Console.WriteLine("Digite um número (0 para sair)");
+//     numero = Convert.ToInt32(Console.ReadLine());
+
+//     soma += numero;
+
+// } while (numero != 0);
+
+// Console.WriteLine($"Total soma dos números digitados é: {soma}");
+
+
+
+
+//Laço de Repetição While
+
+// int numero = 5;
+// int contador = 0;
+
+// while(contador <= 10)
+// { 
+//     Console.WriteLine($"{numero} x {contador} = {numero * contador}");
+//     contador++;
+
+// }
+
+
+
+
+
+
+
+//Laço de Repetição For
+
+// int numero = 5;
+
+// Console.WriteLine($"{numero} x 1= {numero * 1}");
+
+// for(int contador = 0; contador <= 10; contador++)
+// {
+//     Console.WriteLine($"{numero} x {contador} = {numero * contador}");
+// }
 
 
 
@@ -62,26 +157,6 @@ for(int contador = 0; contador <= 10; contador++)
 // calc.Subtrair(10, 50);
 // calc.Multiplicar(15, 45);
 //calc.Potencia(3, 3);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
