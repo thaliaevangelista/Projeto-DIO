@@ -1,0 +1,317 @@
+﻿using ExemploFundamentos.Models;
+
+//Lista de string foreach e for
+
+List<string> listaString = new List<string>();
+
+listaString.Add("Thalia");
+listaString.Add("Alex");
+listaString.Add("Maria");
+
+Console.WriteLine("Percorrendo a lista utilizando o For");
+for (int contador = 0; contador < listaString.Count; contador++)
+{
+    Console.WriteLine($"Posição Nº {contador} - {listaString[contador]}");
+}
+int contadorForeach = 0;
+foreach (string item in listaString)
+{
+    Console.WriteLine($"Posição Nº {contadorForeach} - {item}");
+    contadorForeach++;
+}
+
+
+
+
+// Pessoa[] pessoas = new Pessoa[]
+// {
+//     new Pessoa("Thalia", 28),
+//     new Pessoa("ALex", 31),
+//     new Pessoa("Maria", 30)
+// };
+
+// foreach (Pessoa p in pessoas)
+// {
+//     p.Apresentar();
+// }
+
+
+
+
+//Array int[] arrayInteiros
+
+//  int[] arrayInteiros = new int[4];
+
+//  arrayInteiros[0] = 72;
+//  arrayInteiros[1] = 64;
+//  arrayInteiros[2] = 50;  
+//  arrayInteiros[3] = 1;
+
+// int[] arrayInteirosDobrado = new int[arrayInteiros.Length * 2];
+// Array.Copy(arrayInteiros, arrayInteirosDobrado, arrayInteiros.Length);
+
+
+
+
+
+
+//  for (int contador = 0; contador < arrayInteiros.Length; contador++)
+// {
+//      Console.WriteLine($"Posição Nº {contador}: {arrayInteiros[contador]}");
+// }
+
+
+
+
+// //menu interativo
+
+// string opcao = "";
+// bool exibirMenu = true;
+
+// while (exibirMenu)
+// {
+//     Console.WriteLine("Digite a sua opção:");
+//     Console.WriteLine("1 - Cadastrar cliente");
+//     Console.WriteLine("2 - Buscar cliente");
+//     Console.WriteLine("3 - Apagar cliente");
+//     Console.WriteLine("4 - Encerrar");  
+
+//     opcao = Console.ReadLine();
+
+//     switch (opcao)
+//     {
+//         case "1":
+//             Console.WriteLine("Cadastro de cliente");
+//             break;
+
+//         case "2":
+//             Console.WriteLine("Busca de cliente");
+//             break;
+
+//         case "3":
+//             Console.WriteLine("Apagar cliente");
+//             break;
+
+//         case "4":
+//             Console.WriteLine("Encerrando o programa...");
+//             exibirMenu = false;
+//             //Environment.Exit(0);
+//             break;
+
+//         default:
+//             Console.WriteLine("Opção inválida. Tente novamente.");
+//             break;
+//     }
+
+
+
+// }
+
+
+
+
+
+// //Laço de Repetição Do While
+// int soma = 0, numero = 0;
+
+// do
+// {
+//     Console.WriteLine("Digite um número (0 para sair)");
+//     numero = Convert.ToInt32(Console.ReadLine());
+
+//     soma += numero;
+
+// } while (numero != 0);
+
+// Console.WriteLine($"Total soma dos números digitados é: {soma}");
+
+
+
+
+//Laço de Repetição While
+
+// int numero = 5;
+// int contador = 0;
+
+// while(contador <= 10)
+// { 
+//     Console.WriteLine($"{numero} x {contador} = {numero * contador}");
+//     contador++;
+
+// }
+
+
+
+
+
+
+
+//Laço de Repetição For
+
+// int numero = 5;
+
+// Console.WriteLine($"{numero} x 1= {numero * 1}");
+
+// for(int contador = 0; contador <= 10; contador++)
+// {
+//     Console.WriteLine($"{numero} x {contador} = {numero * contador}");
+// }
+
+
+
+
+
+// Calculadora calc = new Calculadora();
+
+
+// //raiz quadrada
+// calc.RaizQuadrada(9);
+
+
+
+
+// //Incremento e Decremento
+// int numeroIncremento = 10;
+
+// Console.WriteLine(numeroIncremento);
+
+// Console.WriteLine("Incremento a 10");
+// //numeroIncremento = numeroIncremento + 1;
+// numeroIncremento++;
+// Console.WriteLine(numeroIncremento);
+
+// int numeroDecremento = 20;
+
+// Console.WriteLine(numeroDecremento);
+
+// Console.WriteLine("Decremento a 20");
+// numeroDecremento--;
+
+// Console.WriteLine(numeroDecremento);
+
+
+
+
+
+// //seno, coseno e tangente
+// calc.Seno(30);
+// calc.Coseno(30);
+// calc.Tangente(30);
+
+
+
+
+
+//Calculadora soma, subtração, multiplicação, divisão e potenciação
+// calc.Somar(10, 30);
+// calc.Subtrair(10, 50);
+// calc.Multiplicar(15, 45);
+//calc.Potencia(3, 3);
+
+
+
+
+
+// //Operador Not (!) - Retorna o valor booleano oposto da expressão.
+
+// bool choveu = true;
+// bool estaTarde = false;
+
+// if (!choveu && !estaTarde)
+// {
+//     Console.WriteLine("Vamos peladar");
+// }
+// else
+// {
+//     Console.WriteLine("Vamos ficar em casa.");
+// }
+
+
+
+
+// //Operador AND (&&) - Retorna true somente se ambas as expressões forem verdadeiras.
+
+// bool possuiPresencaMinima = true;
+// double media = 7.5;
+
+// if (possuiPresencaMinima && media >= 7)
+// {
+//     Console.WriteLine("Aprovado!");
+// }
+// else
+// {
+//     Console.WriteLine("Reprovado.");
+// }
+
+
+
+// // Operador OR (||) - Retorna true se pelo menos uma das expressões for verdadeira.
+
+// bool ehMaiorDeIdade = false;
+// bool possuiAutorizacaoDoResponsavel = true;
+
+// if (ehMaiorDeIdade || possuiAutorizacaoDoResponsavel)
+// {
+//     Console.WriteLine("Entrada autorizada.");
+// }
+// else
+// {
+//     Console.WriteLine("Desculpe, você não tem autorização para entrar.");
+// }
+
+
+
+//if e else
+
+// int quantidadeEstoque = 10;
+// int quantidadeComprada = 4;
+// bool possivelVenda = quantidadeEstoque >= quantidadeComprada;
+
+// Console.WriteLine($"Quantidade em estoque: {quantidadeEstoque}");
+// Console.WriteLine($"Quantidade comprada: {quantidadeComprada}");
+// Console.WriteLine($"É possível realizar a venda? {quantidadeEstoque >= quantidadeComprada}");
+
+
+// if (quantidadeEstoque >= quantidadeComprada)
+// {
+//     Console.WriteLine("Venda realizada");
+// }
+// else
+// {
+//     Console.WriteLine("Desculpe, não temos a quantidade desejada em estoque.");
+// }
+
+
+
+
+
+
+// string a = "15";
+// int b = 0;
+
+// int.TryParse(a, out b);
+
+// Console.WriteLine(b);
+// Console.WriteLine("Conversão realizada com sucesso!");
+
+
+
+
+//int a = 5;
+//double b = a;
+
+//int a = 5;
+//long b = a;
+
+
+//double a = 4 / 2 +2;
+
+//Console.WriteLine(a);
+
+
+
+
+/*Pessoa pessoa1 = new Pessoa();
+pessoa1.Nome = "Thalia";
+pessoa1.Idade = 28;
+pessoa1.Apresentar();*/
